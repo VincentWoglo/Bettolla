@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Container__WholePage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Container__WholePage header .Navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Container__WholePage header .Navigation .NavigationSection {
+  width: 295px;
+  height: 100vh;
+  background-color: #333;
+}
+
+.Container__WholePage header .Navigation .NavigationSection .Container {
+  color: #fff;
+  text-align: center;
+  margin-top: 136px;
+}
+
+.Container__WholePage header .Navigation .NavigationSection .Container .LogoWrapper .Logo {
+  font-size: 41.89px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.Container__WholePage header .Navigation .NavigationSection .Container .MenuWrapper {
+  margin-top: 228px;
+}
+
+.Container__WholePage header .Navigation .NavigationSection .Container .MenuWrapper .Menu {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.Container__WholePage header .Navigation .NavigationSection .Container .MenuWrapper .Menu li {
+  margin-bottom: 24px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.Container__WholePage header .Navigation .NavigationSection .Container .CallToAction__Wrapper {
+  margin-top: 136px;
+}
+
+.Container__WholePage header .Navigation .NavigationSection .Container .CallToAction__Wrapper .OrderOnline {
+  padding: 50px 97px 50px 97px;
+  font-weight: bold;
+  color: #000;
+  border: 1px #D57A66 solid;
+  background-color: #D57A66;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.Container__WholePage header .Navigation .MenuList__Menu .MenuCateloge {
+  width: 50px;
+  height: 100%;
+  background-color: #E4D6A7;
+}
+
+.Container__WholePage header .Navigation .MenuList__Menu .MenuCateloge .Wrapper {
+  padding-top: 331px;
+}
+
+.Container__WholePage header .Navigation .MenuList__Menu .MenuCateloge .Wrapper .MenuList li {
+  list-style-type: none;
+  margin-bottom: 100px;
+  cursor: pointer;
+  -webkit-transform: rotate(-90deg) translate3d(-50%, 0px, 0);
+          transform: rotate(-90deg) translate3d(-50%, 0px, 0);
+}
+
+.Container__WholePage .Restaurant {
+  width: 80%;
+}
+
+.Container__WholePage .Restaurant .Container .MenuDisplay .Container {
+  padding: 0px 80px 0px 80px;
+}
+
+.Container__WholePage .Restaurant .Container .MenuDisplay .Container .BistroMenu__Title {
+  margin-top: 153px;
+}
+
+.Container__WholePage .Restaurant .Container .MenuDisplay .Container .Line {
+  width: 100%;
+  margin-top: 32px;
+}
+
+.Container__WholePage .Restaurant .Container .MenuDisplay .Container .MenuItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 62px;
+}
+
+.Container__WholePage .Restaurant .Container .MenuDisplay .Container .MenuItems div {
+  width: 250px;
+}
+
+.Container__WholePage .Restaurant .Container .MenuDisplay .Container .MenuItems div .TitleWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 500;
+}
+
+.Container__WholePage .Restaurant .Container .MenuDisplay .Container .MenuItems div .Description {
+  margin-top: 24px;
+  width: 100%;
+  font-style: italic;
+}
+/*# sourceMappingURL=Style.css.map */
